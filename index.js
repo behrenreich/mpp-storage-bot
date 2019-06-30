@@ -1,4 +1,4 @@
-var Channel = "Wolfy's Room";
+var Channel = "lobby7";
 
 // Import Client.js
 const MPPClient = require("mpp-client");
@@ -19,7 +19,7 @@ client.on("hi", () => {
 
     // Showing that the bot is ready
     setTimeout(() => {
-        client.sendArray([{ m:'userset', set:{name:"Storage Bot"} }]);
+        client.sendArray([{ m:'userset', set:{name:"."} }]);
         client.sendArray([{ m:'a', message:"" }]);
     }, 100)
 });  
