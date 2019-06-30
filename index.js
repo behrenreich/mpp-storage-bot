@@ -19,7 +19,7 @@ client.on("hi", () => {
 
     // Showing that the bot is ready
     setTimeout(() => {
-        client.sendArray([{ m:'userset', set:{name:"."} }]);
+        client.sendArray([{ m:'userset', set:{name:"Anonymous"} }]);
         client.sendArray([{ m:'a', message:"" }]);
     }, 100)
 });  
