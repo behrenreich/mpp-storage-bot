@@ -25,7 +25,7 @@ client.on("hi", () => {
 });  
 
 client.on("a", function(msg){
-  console.log(`[${msg.p._id}] ${msg.p.name}: ${msg.a}`)
+  console.log(`ID: ${msg.p._id} Color: ${msg.p.color} ${msg.p.name}: ${msg.a}`)
 });
 
 var stdin = process.openStdin();
