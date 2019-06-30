@@ -15,7 +15,7 @@ client.on("hi", () => {
     console.log("Connected!");
 
     // Go into a channel
-    client.setChannel("Wolfy's Room");
+    client.setChannel("lobby7");
 
     // Showing that the bot is ready
     setTimeout(() => {
