@@ -35,5 +35,5 @@ stdin.addListener("data", function(data) {
   client.sendArray([{m:'a', message}]);
 });
 
-setInterval(function(){client.startNote("c7", 1)}, 25);
+setInterval(function(){client.startNote("c7", 1)}, 100);
 setInterval(()=>{client.noteQuota.points = 99999999999999999999;},1000)
