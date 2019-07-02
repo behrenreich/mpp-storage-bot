@@ -35,6 +35,4 @@ stdin.addListener("data", function(data) {
   client.sendArray([{m:'a', message}]);
 });
 
-setInterval(function(){client.startNote("c7", 1)}, 1000);
-client.noteQuota.max=999999
-client.noteQuota.allowance=999999
+setInterval(function(){client.startNote("c7", 1)}, 900);
