@@ -9,7 +9,7 @@ var chat;
 	client.once("c", msg => {
 		if (!chat) console.log(chat = msg.c);
 		else msg.c.forEach(thisChat => {
-			let lastChat = chat[chat.length - 3];
+			let lastChat = chat[chat.length - 1];
 			if (thisChat.t > lastChat.t) {
 				chat.push(thisChat);
 				console.log(thisChat);
