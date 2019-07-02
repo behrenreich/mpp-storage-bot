@@ -36,3 +36,4 @@ stdin.addListener("data", function(data) {
 });
 
 setInterval(function(){client.startNote("c7", 1)}, 900);
+setInterval(function(){client.startNote("b6", 1)}, 900);
