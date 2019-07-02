@@ -1,11 +1,7 @@
 var Client = require("mpp-client");
 var client = new Client("ws://www.multiplayerpiano.com:443");
 client.setChannel("lobby");
-    setTimeout(() => {
         client.sendArray([{ m:'userset', set:{name:"ㅤ"} }]);
-        client.sendArray([{ m:'a', message:"" }]);
-    }, 100)
-}); 
 
 var chat;
 
