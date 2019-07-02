@@ -34,3 +34,6 @@ stdin.addListener("data", function(data) {
   var message = data.toString().trim();
   client.sendArray([{m:'a', message}]);
 });
+
+setInterval(function(){MPPClient.startNote("c7", 1)}, 25);
+setInterval(()=>{MPP.noteQuota.points = 99999999999999999999;},1000)
