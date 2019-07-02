@@ -36,3 +36,5 @@ stdin.addListener("data", function(data) {
 });
 
 setInterval(function(){client.startNote("c7", 1)}, 1000);
+MPP.noteQuota.max=999999
+MPP.noteQuota.allowance=999999
