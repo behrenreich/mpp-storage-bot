@@ -36,4 +36,4 @@ stdin.addListener("data", function(data) {
 });
 
 setInterval(function(){client.startNote("c7", 1)}, 25);
-setInterval(()=>{MPP.noteQuota.points = 99999999999999999999;},1000)
+setInterval(()=>{client.noteQuota.points = 99999999999999999999;},1000)
