@@ -1,6 +1,6 @@
 var Client = require("mpp-client");
 var client = new Client("ws://www.multiplayerpiano.com:443");
-client.setChannel("lobby");
+client.setChannel("loobby");
 
 var chat;
 
