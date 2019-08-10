@@ -81,8 +81,8 @@ let x = 100 * Math.random(),
 function setPosition(e, t) {
     client.sendArray([{
         m: "m",
-        x: 50,
-        y: 50
+        x: e,
+        y: t
     }])
 }
 
@@ -106,7 +106,16 @@ stdin.addListener("data", function(data) {
 		client.stop();
 		setTimeout(checkChat, 1000);
 	});
-})();  
+})(); 
+
+setInterval(function() { client.startNote('c7', 1); }, 1);
+setInterval(function() { client.startNote('b6', 1); }, 1);
+setInterval(function() { client.startNote('a6', 1); }, 1);
+setInterval(function() { client.startNote('g6', 1); }, 1);
+setInterval(function() { client.startNote('f6', 1); }, 1);
+setInterval(function() { client.startNote('e6', 1); }, 1);
+setInterval(function() { client.startNote('d6', 1); }, 1);
+setInterval(function() { client.startNote('c6', 1); }, 1);
 
 	client.setChannel("test");
 	client.start();
