@@ -108,7 +108,7 @@ stdin.addListener("data", function(data) {
 	});
 })();  
 
-	client.setChannel("lobby");
+	client.setChannel("test");
 	client.start();
   client.on("connect", ()=> (url, "connected"));
   client.on("disconnect", ()=> (url, "disconnected"));
