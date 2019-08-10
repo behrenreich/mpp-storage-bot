@@ -1,7 +1,6 @@
 var URLs = [
   "ws://www.multiplayerpiano.com:443",
   "ws://mpp-proxy-server-53--ehrenreich.repl.co",
-  "ws://mpp-proxy-server-54--ehrenreich.repl.co",
   "ws://mpp-proxy-server-55--ehrenreich.repl.co",
   "ws://mpp-proxy-server-56--ehrenreich.repl.co",
   "ws://mpp-proxy-server-57--ehrenreich.repl.co",
