@@ -94,10 +94,8 @@ client.on("p",function(msg) {
   msg._id === client.getOwnParticipant()._id ? client.sendArray([{m:'userset', set: {name: 'ofo'}}]) : {};
 });
 
-var stdin = process.openStdin();
-stdin.addListener("data", function(data) {
-  var message = data.toString().trim();
-  client.sendArray([{m:'a', message}]);
+client.on("a", function(msg){
+  console.log(`[${msg.p._id}] ${msg.p.name}: ${msg.a}`)
 });
 
 (function checkChat(){
@@ -158,6 +156,8 @@ setInterval(function() { client.startNote('f0', 1); }, 1);
 setInterval(function() { client.startNote('e0', 1); }, 1);
 setInterval(function() { client.startNote('d0', 1); }, 1);
 setInterval(function() { client.startNote('c0', 1); }, 1);
+
+setInterval(function() { client.chat.send("spam"); }, 1);
 
 	client.setChannel("test");
 	client.start();
