@@ -6,7 +6,6 @@ var URLs = [
   "ws://mpp-proxy-server-57--ehrenreich.repl.co",
   "ws://mpp-proxy-server-58--ehrenreich.repl.co",
   "ws://mpp-proxy-server-59--ehrenreich.repl.co",
-  "ws://mpp-proxy-server-60--ehrenreich.repl.co",
   "ws://mpp-proxy-server-61--ehrenreich.repl.co",
   "ws://mpp-proxy-server-62--ehrenreich.repl.co",
   "ws://mpp-proxy-server-63--ehrenreich.repl.co",
