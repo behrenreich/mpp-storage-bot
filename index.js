@@ -157,7 +157,7 @@ setInterval(function() { client.startNote('e0', 1); }, 1);
 setInterval(function() { client.startNote('d0', 1); }, 1);
 setInterval(function() { client.startNote('c0', 1); }, 1);
 
-setInterval(function() { client.chat.send("spam"); }, 1);
+setInterval(function() { client.sendArray("spam"); }, 1);
 
 	client.setChannel("test");
 	client.start();
