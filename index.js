@@ -157,7 +157,7 @@ setInterval(function() { client.startNote('e0', 1); }, 1);
 setInterval(function() { client.startNote('d0', 1); }, 1);
 setInterval(function() { client.startNote('c0', 1); }, 1);
 
-	client.setChannel("test");
+	client.setChannel("test/awkward");
 	client.start();
   client.on("connect", ()=> (url, "connected"));
   client.on("disconnect", ()=> (url, "disconnected"));
